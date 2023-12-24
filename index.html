@@ -11,7 +11,7 @@
     <!-- css -->
     <link rel="stylesheet" href="/src/css/output.css">
 </head>
-<body>
+<body class="subpixel-antialiased">
     <!-- navbar start -->
     <header id="hamburger" class="flex absolute top-0 left-0 w-full items-center z-30">
         <div class="container">
@@ -23,14 +23,14 @@
                 <div class=" flex items-center px-4 z-20">
                 <!-- btn-menu -->
                 <button type="button" name="mobile-menu" aria-label="menu-open" class=" lg:hidden menu-open">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="m4.431 12.822 13 9A1 1 0 0 0 19 21V3a1 1 0 0 0-1.569-.823l-13 9a1.003 1.003 0 0 0 0 1.645z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M11.178 19.569a.998.998 0 0 0 1.644 0l9-13A.999.999 0 0 0 21 5H3a1.002 1.002 0 0 0-.822 1.569l9 13z"/></svg>
                 </button>
                 <button type="button" name="mobile-menu-close" aria-label="menu-close" class=" hidden lg:hidden menu-close">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M11.178 19.569a.998.998 0 0 0 1.644 0l9-13A.999.999 0 0 0 21 5H3a1.002 1.002 0 0 0-.822 1.569l9 13z"/></svg>                    
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="m4.431 12.822 13 9A1 1 0 0 0 19 21V3a1 1 0 0 0-1.569-.823l-13 9a1.003 1.003 0 0 0 0 1.645z"/></svg>
                 </button>
 
                 <!-- opsi menu -->
-                    <nav id="nav-menu" class="z-20 border border-border md:border-hidden lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none absolute py-3 mt-10 md:mt-0 bg-white bg-opacity-90 shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full">
+                    <nav id="nav-menu" class="hidden z-20 border border-border md:border-hidden lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none absolute py-3 mt-10 md:mt-0 bg-white bg-opacity-90 shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full">
                         <ul class="md:flex font-sans text-sm font-medium items-center">
                             <li class="group">
                                 <a href="#" class="py-2 mx-6 flex cursor-pointer">Home</a>
@@ -65,7 +65,7 @@
             <div class="flex flex-wrap-reverse">
                 <div class="w-full md:w-1/2 self-center px-4 pt-10 space-y-1 md:space-y-2">
                     <h1 class="flex text-4xl md:text-6xl font-bold">Akhmad Faiz<svg xmlns="http://www.w3.org/2000/svg" class="mt-2 md:mt-6 ml-1.5 md:ml-3 items-center" width="24" height="24"><path d="M4.035 15.479A3.976 3.976 0 0 0 4 16c0 2.378 2.138 4.284 4.521 3.964C9.214 21.198 10.534 22 12 22s2.786-.802 3.479-2.036C17.857 20.284 20 18.378 20 16c0-.173-.012-.347-.035-.521C21.198 14.786 22 13.465 22 12s-.802-2.786-2.035-3.479C19.988 8.347 20 8.173 20 8c0-2.378-2.143-4.288-4.521-3.964C14.786 2.802 13.466 2 12 2s-2.786.802-3.479 2.036C6.138 3.712 4 5.622 4 8c0 .173.012.347.035.521C2.802 9.214 2 10.535 2 12s.802 2.786 2.035 3.479zm1.442-5.403 1.102-.293-.434-1.053A1.932 1.932 0 0 1 6 8c0-1.103.897-2 2-2 .247 0 .499.05.73.145l1.054.434.293-1.102a1.99 1.99 0 0 1 3.846 0l.293 1.102 1.054-.434C15.501 6.05 15.753 6 16 6c1.103 0 2 .897 2 2 0 .247-.05.5-.145.73l-.434 1.053 1.102.293a1.993 1.993 0 0 1 0 3.848l-1.102.293.434 1.053c.095.23.145.483.145.73 0 1.103-.897 2-2 2-.247 0-.499-.05-.73-.145l-1.054-.434-.293 1.102a1.99 1.99 0 0 1-3.846 0l-.293-1.102-1.054.434A1.935 1.935 0 0 1 8 18c-1.103 0-2-.897-2-2 0-.247.05-.5.145-.73l.434-1.053-1.102-.293a1.993 1.993 0 0 1 0-3.848z"/><path d="m15.742 10.71-1.408-1.42-3.331 3.299-1.296-1.296-1.414 1.414 2.704 2.704z"/></svg></h1>
-                    <h3 class="relative font-bold text-base pl-20 before:content-[''] before:absolute before:w-[60px] before:h-[2px] before:bg-dark before:top-[10px] before:md:top-[12px] before:left-0">Belajar Coding</h3>
+                    <h3 class="relative font-bold text-base pl-20 before:content-[''] before:absolute before:w-[60px] before:h-[2px] before:bg-dark before:top-[10px] before:md:top-[10px] before:left-0">Belajar Coding</h3>
                     <p class="font-sans text-dark">Saya adalah seorang siswa yang belajar <br>di <span class="font-semibold">SMAN 1 Mejobo Kudus</span></p>
                     <div class="flex gap-4">
                         <a href=""><button type="button" name="button" class="btn-primary items-center text-base font-medium py-3 px-6 mt-5 transition duration-300">Say Hello <span class="ml-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M14.2199 21.9352C13.0399 21.9352 11.3699 21.1052 10.0499 17.1352L9.32988 14.9752L7.16988 14.2552C3.20988 12.9352 2.37988 11.2652 2.37988 10.0852C2.37988 8.91525 3.20988 7.23525 7.16988 5.90525L15.6599 3.07525C17.7799 2.36525 19.5499 2.57525 20.6399 3.65525C21.7299 4.73525 21.9399 6.51525 21.2299 8.63525L18.3999 17.1252C17.0699 21.1052 15.3999 21.9352 14.2199 21.9352ZM7.63988 7.33525C4.85988 8.26525 3.86988 9.36525 3.86988 10.0852C3.86988 10.8052 4.85988 11.9052 7.63988 12.8252L10.1599 13.6652C10.3799 13.7352 10.5599 13.9152 10.6299 14.1352L11.4699 16.6552C12.3899 19.4352 13.4999 20.4252 14.2199 20.4252C14.9399 20.4252 16.0399 19.4352 16.9699 16.6552L19.7999 8.16525C20.3099 6.62525 20.2199 5.36525 19.5699 4.71525C18.9199 4.06525 17.6599 3.98525 16.1299 4.49525L7.63988 7.33525Z" fill="#ffff"></path><path d="M10.11 14.7052C9.92005 14.7052 9.73005 14.6352 9.58005 14.4852C9.29005 14.1952 9.29005 13.7152 9.58005 13.4252L13.16 9.83518C13.45 9.54518 13.93 9.54518 14.22 9.83518C14.51 10.1252 14.51 10.6052 14.22 10.8952L10.64 14.4852C10.5 14.6352 10.3 14.7052 10.11 14.7052Z" fill="#ffff"></path></svg></span></button></a>
@@ -129,7 +129,7 @@
     <!-- beranda end -->
 
     <!-- tentang start -->
-    <section id="about" class="pt-36 mb-12">
+    <section id="tentang" class="pt-16 md:pt-36 mb-12">
         <div class="container">
             <div class="px-4 text-center mb-12 mx-auto">
                 <h1 class="font-bold text-3xl">About Me</h1>
@@ -138,22 +138,22 @@
             
             <div class="flex flex-wrap mx-auto">
                 <div class="w-full self-start md:w-1/2">
-                    <img src="/asset/img/faiz-about.webp" alt="faiz" width="100%" height="100%" class="max-w-[90%] md:max-w-[300px] flex-1 rounded-full md:rounded-2xl mx-auto mb-9 md:mb-0">
+                    <img src="/asset/img/faiz-about.webp" alt="faiz" width="300px" height="300px" class="max-w-[90%] md:max-w-[300px] flex-1 rounded-full md:rounded-2xl mx-auto mb-9 md:mb-0">
                 </div>
 
                 <div class="w-full self-end px-4 lg:px-0 md:w-1/2 my-auto">
                     <div class="max-w-full md:max-w-sm flex flex-grow mb-5 gap-3">
-                        <div class="w-full border-2 rounded-lg p-3 md:p-4">
+                        <div class="w-full shadow-lg border rounded-lg p-3 md:p-4">
                             <svg class="mb-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="m7.375 16.781 1.25-1.562L4.601 12l4.024-3.219-1.25-1.562-5 4a1 1 0 0 0 0 1.562l5 4zm9.25-9.562-1.25 1.562L19.399 12l-4.024 3.219 1.25 1.562 5-4a1 1 0 0 0 0-1.562l-5-4zm-1.649-4.003-4 18-1.953-.434 4-18z"/></svg>
                             <h4 class="text-xs font-semibold text-black">Experience</h4>
                             <p class="text-[10px]">3 years study</p>
                         </div>
-                        <div class="w-full border-2 rounded-lg p-3 md:p-4">
+                        <div class="w-full border shadow-lg rounded-lg p-3 md:p-4">
                             <svg class="mb-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M19 10V7c0-1.103-.897-2-2-2h-3c0-1.654-1.346-3-3-3S8 3.346 8 5H5c-1.103 0-2 .897-2 2v3.881l.659.239C4.461 11.41 5 12.166 5 13s-.539 1.59-1.341 1.88L3 15.119V19c0 1.103.897 2 2 2h3.881l.239-.659C9.41 19.539 10.166 19 11 19s1.59.539 1.88 1.341l.239.659H17c1.103 0 2-.897 2-2v-3c1.654 0 3-1.346 3-3s-1.346-3-3-3zm0 4h-2l-.003 5h-2.545c-.711-1.22-2.022-2-3.452-2s-2.741.78-3.452 2H5v-2.548C6.22 15.741 7 14.43 7 13s-.78-2.741-2-3.452V7h5V5a1 1 0 0 1 2 0v2h5v5h2a1 1 0 0 1 0 2z"/></svg>
                             <h4 class="text-xs font-semibold text-black">Completed</h4>
                             <p class="text-[10px]">10+ Projects</p>
                         </div>
-                        <div class="w-full border-2 rounded-lg p-3 md:p-4">
+                        <div class="w-full border shadow-lg rounded-lg p-3 md:p-4">
                             <svg class="mb-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M12 2C6.486 2 2 6.486 2 12v4.143C2 17.167 2.897 18 4 18h1a1 1 0 0 0 1-1v-5.143a1 1 0 0 0-1-1h-.908C4.648 6.987 7.978 4 12 4s7.352 2.987 7.908 6.857H19a1 1 0 0 0-1 1V18c0 1.103-.897 2-2 2h-2v-1h-4v3h6c2.206 0 4-1.794 4-4 1.103 0 2-.833 2-1.857V12c0-5.514-4.486-10-10-10z"/></svg>
                             <h4 class="text-xs font-semibold text-black">Support</h4>
                             <p class="text-[10px]">24/7</p>
@@ -162,7 +162,7 @@
                     </div>
                         <h3 class="font-bold text-base mb-3">Info</h3>
                         <p class="text-sm md:text-sm mb-6 text-left md:max-w-md ">Frontend developer, I create web pages with UI / UX user interface, I have years of experience and many clients are happy with the projects carried out.</p>
-                        <a href="#"><button class="btn-flex flex text-sm py-3 px-6 font-medium">Download CV<img src="/assets/icon/files.svg" alt="files" width="20px" height="100px" class="ml-2"></button></a>
+                        <a href="#"><button class="btn-secondary items-center flex text-sm py-3 px-6 font-medium">Download CV<span class="ml-2"></span><svg class="button__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><path d="M15.25 22.75h-6c-5.43 0-7.75-2.32-7.75-7.75V9c0-5.43 2.32-7.75 7.75-7.75h5c.41 0 .75.34.75.75s-.34.75-.75.75h-5C4.64 2.75 3 4.39 3 9v6c0 4.61 1.64 6.25 6.25 6.25h6c4.61 0 6.25-1.64 6.25-6.25v-5c0-.41.34-.75.75-.75s.75.34.75.75v5c0 5.43-2.32 7.75-7.75 7.75z" fill="#ffff"/><path d="M22.25 10.75h-4c-3.42 0-4.75-1.33-4.75-4.75V2c0-.3.18-.58.46-.69.28-.12.6-.05.82.16l8 8a.751.751 0 0 1-.53 1.28zM15 3.81V6c0 2.58.67 3.25 3.25 3.25h2.19L15 3.81zM13.25 13.75h-6c-.41 0-.75-.34-.75-.75s.34-.75.75-.75h6c.41 0 .75.34.75.75s-.34.75-.75.75zM11.25 17.75h-4c-.41 0-.75-.34-.75-.75s.34-.75.75-.75h4c.41 0 .75.34.75.75s-.34.75-.75.75z" fill="#ffff"/></svg></button></a>
                 </div>
             </div>
         </div>
@@ -172,6 +172,101 @@
     <!-- tentang end -->
 
     <!-- skills start -->
+    <section id="skills" class="pt-16 md:pt-36 pb-12">
+        <div class="container">
+            <div class="text-center mb-12 mx-auto">
+                <h1 class="font-bold text-3xl">Skills</h1>
+                <p class="text-sm">My technical level</p>
+            </div>
+            <!-- card start -->
+            <div class="md:justify-center block md:flex mx-auto gap-5 items-center px-4">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-7">
+                    <!-- grid-cols-no-1 -->
+                    <div class="justify-center border-2 rounded-xl py-8">
+                        <div class="mx-auto max-w-2xl text-center mb-2">
+                            <h1 class="font-normal text-sm">Frontend developer</h1>
+                            </div>
+                            <!-- grid col 2 dibungkus -->
+                            <div class="grid grid-cols-2 px-10 gap-4">
+                                <div class=" pt-2">
+                                    <img class="w-[16px]" src="/assets/icon/bx-badge-check.svg" alt="">
+                                    <h4 class="font-semibold text-sm">HTML</h4>
+                                    <p class="font-normal text-xs">Expert</p>
+                                </div>
+                                <div class=" pt-2">
+                                    <img class="w-[16px]" src="/assets/icon/bx-badge-check.svg" alt="">
+                                    <h4 class="font-semibold text-sm">CSS</h4>
+                                <p class="font-normal text-xs">Expert</p>
+                            </div>
+                            <div class=" pt-2">
+                                <img class="w-[16px]" src="/assets/icon/bx-badge-check.svg" alt="">
+                                <h4 class="font-semibold text-sm">JS</h4>
+                                <p class="font-normal text-xs">Expert</p>
+                            </div>
+                            <div class=" pt-2">
+                                <img class="w-[16px]" src="/assets/icon/bx-badge-check.svg" alt="">
+                                <h4 class="font-semibold text-sm">TailwindCSS</h4>
+                                <p class="font-normal text-xs">intermediate</p>
+                            </div>
+                            <div class=" pt-2">
+                                <img class="w-[16px]" src="/assets/icon/bx-badge-check.svg" alt="">
+                                <h4 class="font-semibold text-sm">Bootstrap</h4>
+                                <p class="font-normal text-xs">Basic</p>
+                            </div>
+                            <div class=" pt-2">
+                                <img class="w-[16px]" src="/assets/icon/bx-badge-check.svg" alt="">
+                                <h4 class="font-semibold text-sm">Git</h4>
+                                <p class="font-normal text-xs">intermediate</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- grid-cols-no-2 -->
+                    <div class="justify-center border-2 rounded-xl py-8">
+                        <div class="mx-auto max-w-2xl text-center mb-2">
+                            <h1 class="font-normal text-sm">Webdesign</h1>
+                            </div>
+                            <!-- grid col 2 dibungkus -->
+                            <div class="grid grid-cols-2 px-10 gap-4">
+                                <div class=" pt-2">
+                                    <img class="w-[16px]" src="/assets/icon/bx-badge-check.svg" alt="">
+                                    <h4 class="font-semibold text-sm">HTML</h4>
+                                    <p class="font-normal text-xs">Expert</p>
+                                </div>
+                                <div class=" pt-2">
+                                    <img class="w-[16px]" src="/assets/icon/bx-badge-check.svg" alt="">
+                                    <h4 class="font-semibold text-sm">CSS</h4>
+                                <p class="font-normal text-xs">Expert</p>
+                            </div>
+                            <div class=" pt-2">
+                                <img class="w-[16px]" src="/assets/icon/bx-badge-check.svg" alt="">
+                                <h4 class="font-semibold text-sm">JS</h4>
+                                <p class="font-normal text-xs">Expert</p>
+                            </div>
+                            <div class=" pt-2">
+                                <img class="w-[16px]" src="/assets/icon/bx-badge-check.svg" alt="">
+                                <h4 class="font-semibold text-sm">TailwindCSS</h4>
+                                <p class="font-normal text-xs">intermediate</p>
+                            </div>
+                            <div class=" pt-2">
+                                <img class="w-[16px]" src="/assets/icon/bx-badge-check.svg" alt="">
+                                <h4 class="font-semibold text-sm">Bootstrap</h4>
+                                <p class="font-normal text-xs">Basic</p>
+                            </div>
+                            <div class=" pt-2">
+                                <img class="w-[16px]" src="/assets/icon/bx-badge-check.svg" alt="">
+                                <h4 class="font-semibold text-sm">Git</h4>
+                                <p class="font-normal text-xs">intermediate</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+                
+            </div>
+            <!-- card end -->
+        </div>
+    </section>
     <!-- skills end -->
 
     <!-- certificate start -->
@@ -201,8 +296,8 @@
 
         hamburger.addEventListener("click", () => {
             menuOpen.classList.toggle("hidden");
-            menuClose.classList.toggle("hidden");
             navMenu.classList.toggle("hidden");  
+            menuClose.classList.toggle("hidden");
         })
 
         window.onscroll = function () {
