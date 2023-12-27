@@ -820,6 +820,10 @@ video {
   height: 2.25rem;
 }
 
+.h-\[20px\] {
+  height: 20px;
+}
+
 .w-3 {
   width: 0.75rem;
 }
@@ -858,6 +862,10 @@ video {
 
 .w-\[\] {
   width: ;
+}
+
+.w-\[24px\] {
+  width: 24px;
 }
 
 .max-w-2xl {
