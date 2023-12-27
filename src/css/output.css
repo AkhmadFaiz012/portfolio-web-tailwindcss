@@ -788,6 +788,10 @@ video {
   margin-bottom: 9rem;
 }
 
+.mt-\[1px\] {
+  margin-top: 1px;
+}
+
 .block {
   display: block;
 }
@@ -1676,6 +1680,10 @@ body{
 
   .md\:mt-16 {
     margin-top: 4rem;
+  }
+
+  .md\:mt-\[1px\] {
+    margin-top: 1px;
   }
 
   .md\:block {
