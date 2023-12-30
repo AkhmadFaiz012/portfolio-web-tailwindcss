@@ -9,7 +9,9 @@ html{
     @apply scroll-smooth
 }
 
-
+body{
+    font-family : 'poppins', sans-serif;
+}
 
 
 /*================RE-USABLE COMPONENTS=========*/

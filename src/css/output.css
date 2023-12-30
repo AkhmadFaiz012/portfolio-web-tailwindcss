@@ -1292,6 +1292,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body{
+  font-family : 'poppins', sans-serif;
+}
+
 /*================RE-USABLE COMPONENTS=========*/
 
 .btn-primary {
