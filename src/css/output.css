@@ -776,10 +776,6 @@ video {
   margin-top: 1.5rem;
 }
 
-.mt-\[1px\] {
-  margin-top: 1px;
-}
-
 .block {
   display: block;
 }
@@ -1260,11 +1256,6 @@ video {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.subpixel-antialiased {
-  -webkit-font-smoothing: auto;
-  -moz-osx-font-smoothing: auto;
-}
-
 .opacity-70 {
   opacity: 0.7;
 }
@@ -1299,10 +1290,6 @@ video {
 
 html {
   scroll-behavior: smooth;
-}
-
-body{
-  font-family : 'poppins', sans-serif;
 }
 
 /*================RE-USABLE COMPONENTS=========*/
@@ -1589,10 +1576,6 @@ body{
 
   .md\:mt-6 {
     margin-top: 1.5rem;
-  }
-
-  .md\:mt-\[1px\] {
-    margin-top: 1px;
   }
 
   .md\:mt-\[0px\] {
