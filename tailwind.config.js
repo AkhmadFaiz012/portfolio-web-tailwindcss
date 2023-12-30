@@ -11,8 +11,8 @@ module.exports = {
         dark : '#0A0A0A'
       },
       fontfamily:{
-        sans : 'system-ui',
-        poppins : ('poppins','sans-serif')
+        poppins : ['poppins','sans-serif'],
+        outfit : ['outfit', 'sans-serif']
       },
       container : {
         center : true,
